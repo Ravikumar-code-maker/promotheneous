@@ -1,0 +1,3 @@
+kubectl create secret generic gcp-key \
+  --from-file=key.json \
+  -n monitoring
